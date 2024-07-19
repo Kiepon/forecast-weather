@@ -15,7 +15,7 @@ def weather_forecast(request):
             city = forecast_form.cleaned_data['city']
             access_key = settings.ACCESS_KEY
             yandex_geocode = settings.YANDEX_GEOCODE
-            dadata_token = settings.DADATA_TOKET
+            dadata_token = settings.DADATA_TOKEN
             headers = {
                 'X-Yandex-Weather-Key': access_key
             }
